@@ -1,0 +1,33 @@
+.nav.navbar-nav {
+  font-size: 18px;
+}
+#searchForm {
+  margin-right: 100px;
+}
+li > a.active {
+  color: #f97924;
+}
+@media (max-width: 1200px) {
+  #searchForm {
+    display: none;
+  }
+}
+.navbar.navbar-default {
+  background-color: transparent;
+}
+.navbar-brand sub {
+  font-size: 10px;
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 26px;
+  color: #f97924;
+  /* color: #f92424; */
+
+}
+.navbar-brand:hover {
+  color: #f97924;
+}
+li > a {
+  cursor: pointer;
+}
